@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0084FD;
+}
+
+.user-options {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+
+.right {
+    text-align: end;
+}
+
+.container {
+    width: 100%;
+}
+
+.al-center {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    justify-content: right;
+}
+
+.content {
+    padding: 20px;
+}
+
+.ft-white {
+    color: #fff;
+}
