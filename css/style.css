@@ -17,7 +17,15 @@ header {
 }
 
 .col-50 {
-    width: 50%;
+    width: 100%;
+}
+
+.col-33 {
+    width: 100%;
+}
+
+.col-66 {
+    width: 100%
 }
 
 
@@ -38,10 +46,31 @@ header {
     justify-content: right;
 }
 
-.content {
-    padding: 20px;
-}
-
 .ft-white {
     color: #fff;
+}
+
+.flx-column {
+    flex-direction: column;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.app .content {
+    margin: 10px;
+}
+
+
+
+.card {
+    padding: 20px;
+    background-color: #B5DDFF;
+    border-radius: 10px;
+}
+
+.center-container {
+    width: 100%;
+    margin: 0 auto;
 }
