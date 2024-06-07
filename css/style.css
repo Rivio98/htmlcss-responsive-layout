@@ -35,6 +35,18 @@ footer {
     background-color: #9792E4;
 }
 
+
+.menu-desktop {
+    display: none;
+}
+
+.menu-desktop ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
 /* Style classes */
 
 
@@ -94,5 +106,35 @@ footer {
 
     .col-50 {
         width: calc((100% - 10px) / 2);
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .strategic-pan .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-50 {
+        width: calc((100% - 10px) / 2);
+    }
+
+    .app,
+    .strategic-plan,
+    .testimonials,
+    .benefits-work,
+    .about-us,
+    .get-start,
+    .link-utili {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: block;
     }
 }
