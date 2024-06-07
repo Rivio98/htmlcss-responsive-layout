@@ -72,3 +72,27 @@ footer {
 .bg-violet {
     background-color: #9792E4;
 }
+
+/* Media Query */
+@media screen and (min-width: 810px) {
+
+    .app,
+    .benefits-work,
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-33 {
+        width: calc((100% - 10px) / 3);
+    }
+
+    .col-66 {
+        width: calc((100% / 3) * 2);
+    }
+
+
+    .col-50 {
+        width: calc((100% - 10px) / 2);
+    }
+}
