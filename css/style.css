@@ -119,6 +119,7 @@ footer {
         width: calc((100% - 10px) / 2);
     }
 
+    .menu,
     .app,
     .strategic-plan,
     .testimonials,
