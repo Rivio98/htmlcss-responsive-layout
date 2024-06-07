@@ -8,69 +8,67 @@ header {
     background-color: #0084FD;
 }
 
-.user-options {
-    width: 100%;
+footer {
+    background-color: #333333;
 }
 
-.row {
+/*Layout classes */
+
+.row-header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.col-50 {
-    width: 100%;
-}
-
-.col-33 {
-    width: 100%;
-}
-
-.col-66 {
-    width: 100%
-}
-
-
-.right {
-    text-align: end;
-}
-
-.container {
-    width: 100%;
-}
-
-.al-center {
+.col-header {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.right {
-    justify-content: right;
+.col {
+    width: 100%;
+}
+
+.wrap-section {
+    width: 100%;
+    background-color: #9792E4;
+}
+
+/* Style classes */
+
+
+/* Utilities */
+.mg-20 {
+    margin: 20px;
 }
 
 .ft-white {
     color: #fff;
 }
 
-.flx-column {
-    flex-direction: column;
-}
-
-.pd-10 {
-    padding: 10px;
-}
-
-.app .content {
-    margin: 10px;
-}
-
-
-
 .card {
     padding: 20px;
-    background-color: #B5DDFF;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-.center-container {
-    width: 100%;
-    margin: 0 auto;
+.bg-lighblue {
+    background-color: #B5DDFF;
+}
+
+.pd-tb-10 {
+    padding: 10px 0;
+}
+
+.card-br {
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-violet {
+    background-color: #9792E4;
 }
