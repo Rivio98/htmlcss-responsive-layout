@@ -188,6 +188,19 @@ img {
         flex-wrap: wrap;
     }
 
+    .testimonials .card-br {
+        display: flex;
+        align-items: center;
+    }
+
+    .biography {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .biography p {
+        text-align: left;
+    }
 
     .col-33 {
         width: calc((100% - 10px) / 3);
