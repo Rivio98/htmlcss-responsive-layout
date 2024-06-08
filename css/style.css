@@ -103,12 +103,13 @@ footer {
 /* Media Query */
 @media screen and (min-width: 810px) {
 
-    .app,
-    .benefits-work,
-    .row {
+    .app .row,
+    .benefits-work .row,
+    .about-us .row {
         display: flex;
         flex-wrap: wrap;
     }
+
 
     .col-33 {
         width: calc((100% - 10px) / 3);
@@ -119,19 +120,23 @@ footer {
     }
 
 
-    .col-50 {
+    .col-17 {
         width: calc((100% - 10px) / 2);
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .strategic-pan .row {
+    .strategic-plan .row {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .col-50 {
+    .col-17 {
         width: calc((100% - 10px) / 2);
+    }
+
+    .col-50 {
+        width: 50%;
     }
 
     .menu,
