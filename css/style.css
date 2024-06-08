@@ -52,6 +52,14 @@ footer {
     text-align: start;
 }
 
+.strategic-plan p {
+    text-align: center;
+}
+
+.testimonials p {
+    text-align: center;
+}
+
 .menu-desktop {
     display: none;
 }
@@ -76,6 +84,10 @@ footer {
     color: #0084FD;
 }
 
+.ft-violet {
+    color: #9792E4;
+}
+
 .bg-lighblue {
     background-color: #B5DDFF;
 }
@@ -96,7 +108,7 @@ footer {
 
 .card-br {
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 .btn {
@@ -119,18 +131,51 @@ footer {
     padding: 20px 30px;
 }
 
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.info-startplanning {
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#arrow-development {
+    font-size: 30px;
+    background-color: #9792E4;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
 
 /* Utilities */
 .mg-20 {
     margin: 20px;
 }
 
+.txt-start {
+    text-align: start;
+}
+
+.txt-center {
+    text-align: center;
+}
 
 
 .pd-tb-10 {
     padding: 10px 0;
 }
 
+img {
+    width: 100%;
+}
+
+.testimonials-img img {
+    clip-path: circle();
+    margin: 10px;
+}
 
 
 /* Media Query */
