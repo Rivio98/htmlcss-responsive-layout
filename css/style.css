@@ -30,14 +30,26 @@ footer {
     width: 100%;
 }
 
+.col-card {
+    width: 100%;
+}
+
+.col-card img {
+    width: 100%;
+}
+
 .wrap-section {
     width: 100%;
     background-color: #9792E4;
 }
 
 .card {
-    padding: 20px;
+    text-align: center;
     border-radius: 20px;
+}
+
+.col-card p {
+    text-align: start;
 }
 
 .menu-desktop {
@@ -50,10 +62,18 @@ footer {
     align-items: center;
 }
 
+.icon-app {
+    font-size: 100px;
+}
+
 
 /* Style classes */
 .ft-white {
     color: #fff;
+}
+
+.ft-blue {
+    color: #0084FD;
 }
 
 .bg-lighblue {
@@ -85,6 +105,21 @@ footer {
     border-radius: 20px;
 }
 
+.btn-store {
+    background-color: #0084FD;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.content-card {
+    padding: 20px;
+}
+
+.content-card p {
+    padding: 20px 30px;
+}
+
+
 /* Utilities */
 .mg-20 {
     margin: 20px;
@@ -95,8 +130,6 @@ footer {
 .pd-tb-10 {
     padding: 10px 0;
 }
-
-
 
 
 
@@ -115,8 +148,10 @@ footer {
         width: calc((100% - 10px) / 3);
     }
 
+
     .col-66 {
         width: calc((100% / 3) * 2);
+        height: 100%;
     }
 
 
@@ -125,7 +160,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
     .strategic-plan .row {
         display: flex;
         flex-wrap: wrap;
@@ -157,5 +192,19 @@ footer {
 
     .menu-desktop {
         display: block;
+    }
+
+    .content-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .col-card {
+        width: 50%;
+    }
+
+    .txt-left {
+        text-align: left;
     }
 }
