@@ -88,6 +88,14 @@ footer {
     color: #9792E4;
 }
 
+.ft-grey {
+    color: #CCCBF1;
+}
+
+.ft-orange {
+    color: #FDC15F;
+}
+
 .bg-lighblue {
     background-color: #B5DDFF;
 }
@@ -127,14 +135,15 @@ footer {
     padding: 20px;
 }
 
+.card {
+    padding: 20px;
+}
+
+
 .content-card p {
     padding: 20px 30px;
 }
 
-h2 {
-    text-align: center;
-    margin: 20px;
-}
 
 .info-startplanning {
     text-align: center;
@@ -155,12 +164,20 @@ h2 {
     margin: 20px;
 }
 
+.mg-tp-20 {
+    margin-top: 20px;
+}
+
 .txt-start {
     text-align: start;
 }
 
 .txt-center {
     text-align: center;
+}
+
+.txt-left {
+    text-align: left;
 }
 
 
@@ -172,10 +189,16 @@ img {
     width: 100%;
 }
 
-.testimonials-img img {
+.testimonials-img,
+.about-us img {
     clip-path: circle();
     margin: 10px;
 }
+
+.about-us img {
+    width: 50%;
+}
+
 
 
 /* Media Query */
@@ -216,6 +239,7 @@ img {
     .col-17 {
         width: calc((100% - 10px) / 2);
     }
+
 }
 
 @media screen and (min-width: 1920px) {
@@ -225,7 +249,7 @@ img {
     }
 
     .col-17 {
-        width: calc((100% - 10px) / 2);
+        width: calc((100% - 10px) / 3);
     }
 
     .col-50 {
